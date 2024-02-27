@@ -1,0 +1,111 @@
+
+##########################################################################################################################
+###############################################        HTML        #######################################################
+##########################################################################################################################
+
+    TAGS
+    
+        1. container tags / Pair Tags
+        
+            1. Opening tag /starting tag
+                Ex:- <html>
+                
+            2. Closing tag / ending tag
+                Ex:- </html>
+        2. Empty tags / Single tags
+        
+            1. Opening tag
+                Ex:- <br>,<br/>,</br> line break, <hr>,<hr/>,</hr> horizontal line, <img> image
+
+    ELEMENTS
+    
+        Opening tag + STATEMENT + Closing tag = ELEMENT
+            Ex:- <h1> statement / code </h1>
+
+    ATTRIBUTES
+        
+        <Opening tag + attribute name = "attribute value"> + STATEMENT + <Closing tag>
+        <h1 class= "primary"> statement / code </h1>
+
+##########################################################################################################################
+
+Applications required:
+
+    1. Notepad
+    2. Notepad++
+
+##########################################################################################################################
+
+HTML programming structure
+
+    1. Tags :- <html>, <head>, <title>, <body>
+
+        1. Heading Tags = 6 types
+
+             1. <h1> ---- </h1>
+             2. <h2> ---- </h2>
+             3. <h3> ---- </h3>
+             4. <h4> ---- </h4>
+             5. <h5> ---- </h5>
+             6. <h6> ---- </h6>
+
+        2. Paragraphs :- <p> ---- </p>
+
+        3. Attributes :-
+            1. background color :- <bgcolor="green">
+            2. Allignment :- <align="center">, <align="right", <align="left">>
+            3. Text Format :- <b> bold, <i> italic, <u> Underline, <strike> Strike through, <sub> Sub script, <sup> Super script, <strong> Strong
+            4. Text Size :- <size="8">
+            5. Text Layout :- 
+
+        4. Empty Tags :- <wbr> removes spaces between words
+
+        5. Marquee tags :- scrooling text <marquee> ---- </marquee>
+            
+            1. direction :- <marquee direction="left"> ---- </marquee>
+            2. width (scrolling) :- <marquee width="50%"> ---- </marquee>
+            3. scrollamount (speed) :- <marquee scrollamount="10"> ---- </marquee>
+
+        6. List :- <li>
+
+            1. Unordered list :- <ul> ---- </ul>
+            2. Ordered list :- <ol> ---- </ol>
+
+        7. Bullets :- (Unordered list)
+            
+            1. <ul type="disc"> ---- </ul>
+            2. <ul type="circle"> ---- </ul>
+            3. <ul type="square"> ---- </ul>
+
+        8. Numberings :- (ordered list)
+            
+            1. <ol type="A"> ---- </ol> (capital letter)
+            2. <ol type="a"> ---- </ol> (small letters)
+            3. <ol type="i"> ---- </ol> (roman numbers)
+            4. <ol start="10"> ---- </ol> (starts numbering with defined number)
+
+        9. LINKS :-
+        
+            1. Text :- <a> ---- </a>
+                Ex : <a href="URL"> ---- </a>
+                        target="new-tab", target="blank"
+
+            2. Image :- 
+
+##########################################################################################################################
+
+
+##########################################################################################################################
+########################################    Basic programming structure     ##############################################
+##########################################################################################################################
+
+<html>
+<head>
+    <title> statemment </title>
+</head>
+<body>
+    Element 1
+    Element 2
+</body>
+</html>
+
